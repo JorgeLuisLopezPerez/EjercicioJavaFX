@@ -5,7 +5,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SecondaryController">
+<VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: LightBlue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SecondaryController">
     <children>
         <Label fx:id="fortuneDisplayLabel" text="debug::Fortune Should Appear Here" textAlignment="CENTER" wrapText="true" />
         <Button onAction="#goBack" text="Volver" />
